@@ -26,4 +26,12 @@ obj_site.close()
 soup_page = soup(sitePage_html, 'html.parser')
 
 # Print Html info for site
-print(soup_page)
+#print(soup_page.h1)
+
+# Pulling each product
+containers = soup_page.findAll('div', {'class':'item-container'})
+#print(containers[0])
+
+filename = 'products.csv'
+#f = open(filename, 'w')
+#headers = 'brand, product_name, shipping\n'
