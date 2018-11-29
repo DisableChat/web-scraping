@@ -1,3 +1,3 @@
-# web-scrape
+# web scraping
 
-#checking cheapest price for gpu's
+#### Checking cheapest price for gpu's using beautiful soup
